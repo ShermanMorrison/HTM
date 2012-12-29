@@ -11,5 +11,5 @@ Space_Pool.m :    Numenta's spatial pooling algorithm to get sparse distributed 
 Time_Pool.m :   Numenta's temporal pooling algorithm to put SDR representation in temporal context and 
 predict future states.
 
-run_HTM.m : Initialize synaptic connections from HTM region's columns to input. Feed samples from periodic
-scalar function to the HTM region encoded as sparse distributed representations.
+run_HTM.m : Driver. Initializes synaptic connections from HTM region's columns to input. 
+Feeds samples from periodic scalar function to the HTM region encoded as sparse distributed representations.
